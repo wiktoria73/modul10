@@ -1,3 +1,7 @@
+$(document).ready(function() {
+  console.log('Ready to work');
+});
+
 var span = $("span");
   span.each(function(index, element) {
     if (index % 2 == 0) {
