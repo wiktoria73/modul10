@@ -6,12 +6,12 @@ $(document).ready(function() {
         $(element).css('color', 'blue');
       }
     });
-		
+
 	var paragraph = $('p');
 	paragraph.each(function(index, element) {
-	  var newButton = '<button class="btn" data-tmp="' + index + '">Click me</button>'
+	  var newButton = '<button class="btn" data-tmp="' + index + '">Click me</button>';
 
-	  $(element).append(newButton)
+	  $(element).append(newButton);
 	});
 
 	$("button").click(function() {
