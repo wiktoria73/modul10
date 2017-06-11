@@ -1,8 +1,10 @@
 
 #carousel {
   text-align: center;
-  overflow: scroll;
+  overflow: hidden;
   border: 2px grey solid;
+  height: 400px;
+  width: 500px;
 }
 
 img {
@@ -13,9 +15,10 @@ img {
 ul {
   width: 2000px;
   margin: 0;
+  padding: 0;
 }
 
 li {
-  display: inline-block;
+  float: left;
   list-style: none;
 }
